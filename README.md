@@ -37,7 +37,7 @@
     -->
   </a>
 
-<h3 align="center">Library App</h3>
+<h3 align="center">Forecast App</h3>
 
   <p align="center">
     This is a web app that shows the forecast of a specific location's weather.
