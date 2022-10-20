@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forecast App</title>
-    <script src="app.js"></script>
     <noscript>Your browser doesn't support javascript!</noscript>
+    <script src="app.js" defer></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -14,7 +14,7 @@
         <div id="container">
             <div id="container-search">
                 <input type="text" id="search-bar" placeholder="Search">
-                <button><i class="material-icons">search</i></button>
+                <button id="btn"><i class="material-icons">search</i></button>
             </div>
             <div id="container-weather">
                 <h1 id="city"></h1>
