@@ -11,6 +11,10 @@ function callWeather(city, key) {
         key)
     .then((response) => response.json())
     .then((data) => displayWeather(data))
+    .catch(() => {
+        city = city.charAt(0).toUpperCase() + city.slice(1);
+        window.alert(`"${city}" is an invalid city`);
+    });
 }
 
 function displayWeather(data) {
