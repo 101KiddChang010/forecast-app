@@ -35,11 +35,10 @@ document.querySelector("#btn").addEventListener("click", function(){
     searchCity(document.querySelector("#search-bar").value);
 });
 
-
 document.querySelector("#search-bar").addEventListener("keyup", function(event){
     if (event.key == "Enter") {
         searchCity(document.querySelector("#search-bar").value);
-        document.querySelector("#search-bar").value = ""
+        document.querySelector("#search-bar").value = "";
     }
 });
 
